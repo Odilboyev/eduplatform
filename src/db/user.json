@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "username": "john_doe",
+    "password": "password123",
+    "fullName": "John Doe",
+    "picture": "https://example.com/johndoe.jpg",
+    "courses": [
+      {
+        "courseId": 1,
+        "progress": {
+          "completedLessons": 5,
+          "totalLessons": 10,
+          "moduleProgress": [
+            {
+              "moduleId": 1,
+              "completedLessons": 2,
+              "totalLessons": 4,
+              "quizScore": 80
+            },
+            {
+              "moduleId": 2,
+              "completedLessons": 3,
+              "totalLessons": 6,
+              "quizScore": 70
+            }
+          ],
+          "finalQuizScore": 75
+        }
+      },
+      {
+        "courseId": 2,
+        "progress": {
+          "completedLessons": 3,
+          "totalLessons": 8,
+          "moduleProgress": [
+            {
+              "moduleId": 1,
+              "completedLessons": 1,
+              "totalLessons": 2,
+              "quizScore": 90
+            },
+            {
+              "moduleId": 2,
+              "completedLessons": 2,
+              "totalLessons": 4,
+              "quizScore": 85
+            }
+          ],
+          "finalQuizScore": 80
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "jane_smith",
+    "password": "password456",
+    "fullName": "Jane Smith",
+    "picture": "https://example.com/janesmith.jpg",
+    "courses": []
+  }
+]

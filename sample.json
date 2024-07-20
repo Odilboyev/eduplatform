@@ -1,0 +1,1220 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "password": "password123",
+      "fullName": "John Doe",
+      "picture": "https://example.com/johndoe.jpg",
+      "courses": [
+        {
+          "courseId": 1,
+          "progress": {
+            "completedLessons": 5,
+            "totalLessons": 10,
+            "moduleProgress": [
+              {
+                "moduleId": 1,
+                "completedLessons": 2,
+                "totalLessons": 4,
+                "quizScore": 80
+              },
+              {
+                "moduleId": 2,
+                "completedLessons": 3,
+                "totalLessons": 6,
+                "quizScore": 70
+              }
+            ],
+            "finalQuizScore": 75
+          }
+        },
+        {
+          "courseId": 2,
+          "progress": {
+            "completedLessons": 3,
+            "totalLessons": 8,
+            "moduleProgress": [
+              {
+                "moduleId": 1,
+                "completedLessons": 1,
+                "totalLessons": 2,
+                "quizScore": 90
+              },
+              {
+                "moduleId": 2,
+                "completedLessons": 2,
+                "totalLessons": 4,
+                "quizScore": 85
+              }
+            ],
+            "finalQuizScore": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "password": "password456",
+      "fullName": "Jane Smith",
+      "picture": "https://example.com/janesmith.jpg",
+      "courses": []
+    },
+    {
+      "id": "e679",
+      "email": "lol@lol.com",
+      "password": "lol333"
+    },
+    {
+      "id": "4b43",
+      "email": "lol@lol.com",
+      "password": "lol333"
+    },
+    {
+      "id": "de86",
+      "email": "lol@lol.com",
+      "password": "lol333"
+    },
+    {
+      "email": "samandarodilboyev@gmail.com",
+      "password": "$2a$10$n/0vFvuF7YgyigRxVeob7.rcP5CJJ7bUq0nR7GEwga7YTETTOziCC",
+      "firstName": "Samandar",
+      "lastName": "Odilboyev",
+      "userName": "info@phoenixcoded.co",
+      "age": "1",
+      "id": "9WZZXyU"
+    },
+    {
+      "email": "samandarodilboye@gmail.com",
+      "password": "$2a$10$aJmat8t//3j0N3bdURfnKO9HtmtqaaDcweZnhZQtfkBoEwJqCI.LO",
+      "firstName": "Samandar",
+      "lastName": "Odilboyev",
+      "userName": "co",
+      "age": "9",
+      "id": "xULbM0z"
+    },
+    {
+      "email": "samandarodilbo@gmail.com",
+      "password": "$2a$10$4qwGi54pqzYBQDS2b7Ljp.RswtJFrnc.pDV/y6boq3xdg6t/mZnWW",
+      "firstName": "Samandar",
+      "lastName": "Odilboyev",
+      "userName": "co",
+      "age": "9",
+      "id": "bilTy2w"
+    },
+    {
+      "email": "samandarodilb@gmail.com",
+      "password": "$2a$10$OWi5TnyAPWDvcr5JH.0dQOBYbMHeuIK3yclIEpAKxeOaXNx.MIlNu",
+      "firstName": "Samandar",
+      "lastName": "Odilboyev",
+      "userName": "co",
+      "age": "9",
+      "id": "mokLGKo"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "category": "Web Development",
+      "title": "React for Beginners",
+      "description": "Learn the basics of React.",
+      "instructor": "John Doe",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to React",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is React?",
+              "video": "https://www.youtube.com/watch?v=Ke90Tje7VS0"
+            },
+            {
+              "id": 2,
+              "title": "Getting Started with React",
+              "video": "https://www.youtube.com/watch?v=w7ejDZ8SWv8"
+            },
+            {
+              "id": 3,
+              "title": "React Components",
+              "video": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
+            },
+            {
+              "id": 4,
+              "title": "JSX",
+              "video": "https://www.youtube.com/watch?v=qc8mZKXqOhs"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is React?",
+                "options": [
+                  "A programming language",
+                  "A JavaScript library",
+                  "A database"
+                ],
+                "answer": "A JavaScript library"
+              },
+              {
+                "question": "What does JSX stand for?",
+                "options": [
+                  "JavaScript XML",
+                  "JavaScript Extension",
+                  "Java Syntax Extension"
+                ],
+                "answer": "JavaScript XML"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Advanced React",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "State Management",
+              "video": "https://www.youtube.com/watch?v=35lXWvCuM8o"
+            },
+            {
+              "id": 2,
+              "title": "Lifecycle Methods",
+              "video": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+            },
+            {
+              "id": 3,
+              "title": "Hooks",
+              "video": "https://www.youtube.com/watch?v=f687hBjwFcM"
+            },
+            {
+              "id": 4,
+              "title": "Context API",
+              "video": "https://www.youtube.com/watch?v=XLJN4JfniH4"
+            },
+            {
+              "id": 5,
+              "title": "Custom Hooks",
+              "video": "https://www.youtube.com/watch?v=IL82CzlaCys"
+            },
+            {
+              "id": 6,
+              "title": "Performance Optimization",
+              "video": "https://www.youtube.com/watch?v=HB6q8jAZMiU"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a hook in React?",
+                "options": [
+                  "A lifecycle method",
+                  "A function that lets you use state and other features",
+                  "A state management tool"
+                ],
+                "answer": "A function that lets you use state and other features"
+              },
+              {
+                "question": "What is the Context API used for?",
+                "options": [
+                  "Managing component state",
+                  "Sharing values between components",
+                  "Optimizing performance"
+                ],
+                "answer": "Sharing values between components"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "title": "React Router",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to React Router",
+              "video": "https://www.youtube.com/watch?v=Law7wfdg_ls"
+            },
+            {
+              "id": 2,
+              "title": "Nested Routes",
+              "video": "https://www.youtube.com/watch?v=Ph8BXH-H3GQ"
+            },
+            {
+              "id": 3,
+              "title": "Programmatic Navigation",
+              "video": "https://www.youtube.com/watch?v=9OcoO3fsS2I"
+            },
+            {
+              "id": 4,
+              "title": "Dynamic Routing",
+              "video": "https://www.youtube.com/watch?v=cTFmhBWv6Bo"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is React Router?",
+                "options": [
+                  "A state management tool",
+                  "A routing library",
+                  "A UI component library"
+                ],
+                "answer": "A routing library"
+              },
+              {
+                "question": "What is used for defining routes?",
+                "options": [
+                  "Route component",
+                  "Link component",
+                  "NavLink component"
+                ],
+                "answer": "Route component"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "title": "Redux",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to Redux",
+              "video": "https://www.youtube.com/watch?v=poQXNp9ItL4"
+            },
+            {
+              "id": 2,
+              "title": "Actions and Reducers",
+              "video": "https://www.youtube.com/watch?v=wvWmH2JoYqA"
+            },
+            {
+              "id": 3,
+              "title": "Redux Thunk",
+              "video": "https://www.youtube.com/watch?v=UV7VVo1w5_E"
+            },
+            {
+              "id": 4,
+              "title": "Connecting Redux with React",
+              "video": "https://www.youtube.com/watch?v=CVpUuw9XSjY"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Redux?",
+                "options": [
+                  "A routing library",
+                  "A state management tool",
+                  "A UI component library"
+                ],
+                "answer": "A state management tool"
+              },
+              {
+                "question": "What is used to define state changes?",
+                "options": ["Actions", "Reducers", "Store"],
+                "answer": "Reducers"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of React?",
+            "options": [
+              "Building mobile applications",
+              "Building user interfaces",
+              "Managing databases"
+            ],
+            "answer": "Building user interfaces"
+          },
+          {
+            "question": "Which hook is used for managing state in functional components?",
+            "options": ["useEffect", "useContext", "useState"],
+            "answer": "useState"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "category": "Data Science",
+      "title": "Python for Data Analysis",
+      "description": "Learn how to analyze data using Python.",
+      "instructor": "Jane Smith",
+      "duration": "5 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to Python",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Python Basics",
+              "video": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+            },
+            {
+              "id": 2,
+              "title": "Data Types",
+              "video": "https://www.youtube.com/watch?v=khKv-8q7YmY"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Python?",
+                "options": [
+                  "A type of snake",
+                  "A programming language",
+                  "A data analysis tool"
+                ],
+                "answer": "A programming language"
+              },
+              {
+                "question": "Which data type is immutable?",
+                "options": ["list", "dict", "tuple"],
+                "answer": "tuple"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Data Analysis with Pandas",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to Pandas",
+              "video": "https://www.youtube.com/watch?v=pmET9X4iBYw"
+            },
+            {
+              "id": 2,
+              "title": "DataFrames",
+              "video": "https://www.youtube.com/watch?v=zmdjNSmRXF4"
+            },
+            {
+              "id": 3,
+              "title": "Data Cleaning",
+              "video": "https://www.youtube.com/watch?v=ZOX18HfLHGQ"
+            },
+            {
+              "id": 4,
+              "title": "Data Manipulation",
+              "video": "https://www.youtube.com/watch?v=dcqPhpY7tWk"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Pandas?",
+                "options": [
+                  "A type of bear",
+                  "A data analysis library",
+                  "A Python IDE"
+                ],
+                "answer": "A data analysis library"
+              },
+              {
+                "question": "What is a DataFrame?",
+                "options": [
+                  "A type of data structure",
+                  "A Python function",
+                  "A data type"
+                ],
+                "answer": "A type of data structure"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "title": "Data Visualization",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to Matplotlib",
+              "video": "https://www.youtube.com/watch?v=Ks7FKDsjYQw"
+            },
+            {
+              "id": 2,
+              "title": "Plotting with Pandas",
+              "video": "https://www.youtube.com/watch?v=KzwjK5t1p3I"
+            },
+            {
+              "id": 3,
+              "title": "Seaborn Basics",
+              "video": "https://www.youtube.com/watch?v=6GUZXDef2U0"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Matplotlib used for?",
+                "options": [
+                  "Data analysis",
+                  "Data visualization",
+                  "Data cleaning"
+                ],
+                "answer": "Data visualization"
+              },
+              {
+                "question": "What is Seaborn?",
+                "options": [
+                  "A data visualization library",
+                  "A data cleaning tool",
+                  "A Python IDE"
+                ],
+                "answer": "A data visualization library"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "title": "Machine Learning Basics",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to Machine Learning",
+              "video": "https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+            },
+            {
+              "id": 2,
+              "title": "Supervised Learning",
+              "video": "https://www.youtube.com/watch?v=ZyciFzjusbc"
+            },
+            {
+              "id": 3,
+              "title": "Unsupervised Learning",
+              "video": "https://www.youtube.com/watch?v=rlfsnRY0S9k"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is supervised learning?",
+                "options": [
+                  "Learning with labeled data",
+                  "Learning without labeled data",
+                  "A type of data visualization"
+                ],
+                "answer": "Learning with labeled data"
+              },
+              {
+                "question": "What is unsupervised learning?",
+                "options": [
+                  "Learning with labeled data",
+                  "Learning without labeled data",
+                  "A type of data visualization"
+                ],
+                "answer": "Learning without labeled data"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of Pandas?",
+            "options": ["Web development", "Data analysis", "Machine learning"],
+            "answer": "Data analysis"
+          },
+          {
+            "question": "Which function is used to create a DataFrame in Pandas?",
+            "options": [
+              "pd.DataFrame()",
+              "pd.createDataFrame()",
+              "pd.newDataFrame()"
+            ],
+            "answer": "pd.DataFrame()"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "category": "Mobile Development",
+      "title": "Flutter for Beginners",
+      "description": "Learn how to build mobile apps with Flutter.",
+      "instructor": "Alex Johnson",
+      "duration": "4 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to Flutter",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is Flutter?",
+              "video": "https://www.youtube.com/watch?v=fq4N0hgOWzU"
+            },
+            {
+              "id": 2,
+              "title": "Setting Up Flutter",
+              "video": "https://www.youtube.com/watch?v=9URPqZKMZlw"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Flutter?",
+                "options": [
+                  "A web framework",
+                  "A mobile app SDK",
+                  "A database"
+                ],
+                "answer": "A mobile app SDK"
+              },
+              {
+                "question": "Which language is used with Flutter?",
+                "options": ["JavaScript", "Dart", "Python"],
+                "answer": "Dart"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Building UI in Flutter",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Widgets and Layouts",
+              "video": "https://www.youtube.com/watch?v=1xipg02Wu8s"
+            },
+            {
+              "id": 2,
+              "title": "State Management",
+              "video": "https://www.youtube.com/watch?v=3tm8P6K32qY"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What are widgets in Flutter?",
+                "options": ["Functions", "Classes", "UI components"],
+                "answer": "UI components"
+              },
+              {
+                "question": "How is state managed in Flutter?",
+                "options": [
+                  "Using stateful widgets",
+                  "Using Redux",
+                  "Using context API"
+                ],
+                "answer": "Using stateful widgets"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of Flutter?",
+            "options": [
+              "Building mobile apps",
+              "Building web apps",
+              "Data analysis"
+            ],
+            "answer": "Building mobile apps"
+          },
+          {
+            "question": "Which company developed Flutter?",
+            "options": ["Apple", "Microsoft", "Google"],
+            "answer": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "category": "Artificial Intelligence",
+      "title": "Introduction to AI",
+      "description": "Learn the basics of Artificial Intelligence.",
+      "instructor": "Sarah Lee",
+      "duration": "6 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "AI Fundamentals",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is AI?",
+              "video": "https://www.youtube.com/watch?v=JMUxmLyrhSk"
+            },
+            {
+              "id": 2,
+              "title": "History of AI",
+              "video": "https://www.youtube.com/watch?v=8nt3edWLgIg"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is AI?",
+                "options": [
+                  "A programming language",
+                  "A type of hardware",
+                  "A branch of computer science"
+                ],
+                "answer": "A branch of computer science"
+              },
+              {
+                "question": "When was the term 'Artificial Intelligence' coined?",
+                "options": ["1945", "1956", "1965"],
+                "answer": "1956"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Machine Learning",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Introduction to Machine Learning",
+              "video": "https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+            },
+            {
+              "id": 2,
+              "title": "Types of Machine Learning",
+              "video": "https://www.youtube.com/watch?v=8uUoNVaVvTA"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is supervised learning?",
+                "options": [
+                  "Learning with labeled data",
+                  "Learning without labeled data",
+                  "A type of neural network"
+                ],
+                "answer": "Learning with labeled data"
+              },
+              {
+                "question": "What is unsupervised learning?",
+                "options": [
+                  "Learning with labeled data",
+                  "Learning without labeled data",
+                  "A type of reinforcement learning"
+                ],
+                "answer": "Learning without labeled data"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary goal of AI?",
+            "options": [
+              "To create robots",
+              "To simulate human intelligence",
+              "To analyze data"
+            ],
+            "answer": "To simulate human intelligence"
+          },
+          {
+            "question": "Which of the following is an example of AI?",
+            "options": ["A calculator", "A chatbot", "A spreadsheet"],
+            "answer": "A chatbot"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "category": "Cybersecurity",
+      "title": "Cybersecurity Basics",
+      "description": "Learn the fundamentals of cybersecurity.",
+      "instructor": "Michael Brown",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to Cybersecurity",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is Cybersecurity?",
+              "video": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+            },
+            {
+              "id": 2,
+              "title": "Cybersecurity Threats",
+              "video": "https://www.youtube.com/watch?v=2zfqw8nhUwA"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is cybersecurity?",
+                "options": [
+                  "Protecting internet-connected systems",
+                  "Creating computer programs",
+                  "Building websites"
+                ],
+                "answer": "Protecting internet-connected systems"
+              },
+              {
+                "question": "Which of the following is a cybersecurity threat?",
+                "options": ["Phishing", "Debugging", "Compiling"],
+                "answer": "Phishing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Securing Networks",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Network Security Basics",
+              "video": "https://www.youtube.com/watch?v=3QRPYriWQAk"
+            },
+            {
+              "id": 2,
+              "title": "Firewalls",
+              "video": "https://www.youtube.com/watch?v=K4gRZ-G8rKY"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is the purpose of a firewall?",
+                "options": [
+                  "To block unauthorized access",
+                  "To manage files",
+                  "To create websites"
+                ],
+                "answer": "To block unauthorized access"
+              },
+              {
+                "question": "What is network security?",
+                "options": [
+                  "Securing computer networks",
+                  "Developing software",
+                  "Designing web pages"
+                ],
+                "answer": "Securing computer networks"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary goal of cybersecurity?",
+            "options": [
+              "To protect data",
+              "To create networks",
+              "To develop software"
+            ],
+            "answer": "To protect data"
+          },
+          {
+            "question": "Which tool is used to monitor network traffic?",
+            "options": ["Antivirus", "Firewall", "Router"],
+            "answer": "Firewall"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "category": "Cloud Computing",
+      "title": "AWS for Beginners",
+      "description": "Learn the basics of Amazon Web Services.",
+      "instructor": "Emma Wilson",
+      "duration": "4 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to AWS",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is AWS?",
+              "video": "https://www.youtube.com/watch?v=6oLzUqLFKRI"
+            },
+            {
+              "id": 2,
+              "title": "Setting Up AWS",
+              "video": "https://www.youtube.com/watch?v=ulprqHHWlng"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is AWS?",
+                "options": [
+                  "A cloud computing platform",
+                  "A programming language",
+                  "A database"
+                ],
+                "answer": "A cloud computing platform"
+              },
+              {
+                "question": "Which service is used for storage in AWS?",
+                "options": ["EC2", "S3", "RDS"],
+                "answer": "S3"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "AWS Services",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "EC2 Instances",
+              "video": "https://www.youtube.com/watch?v=mlULvXyetNU"
+            },
+            {
+              "id": 2,
+              "title": "S3 Buckets",
+              "video": "https://www.youtube.com/watch?v=9n8s7shpOaU"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is an EC2 instance?",
+                "options": [
+                  "A storage service",
+                  "A compute service",
+                  "A database service"
+                ],
+                "answer": "A compute service"
+              },
+              {
+                "question": "What is an S3 bucket?",
+                "options": [
+                  "A storage service",
+                  "A compute service",
+                  "A database service"
+                ],
+                "answer": "A storage service"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of AWS?",
+            "options": ["Cloud computing", "Web development", "Data analysis"],
+            "answer": "Cloud computing"
+          },
+          {
+            "question": "Which service is used for databases in AWS?",
+            "options": ["EC2", "S3", "RDS"],
+            "answer": "RDS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "category": "DevOps",
+      "title": "DevOps Fundamentals",
+      "description": "Learn the basics of DevOps practices.",
+      "instructor": "Chris Evans",
+      "duration": "4 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to DevOps",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is DevOps?",
+              "video": "https://www.youtube.com/watch?v=ZmdQ8CWSg38"
+            },
+            {
+              "id": 2,
+              "title": "DevOps Tools",
+              "video": "https://www.youtube.com/watch?v=9hECwE5nMnE"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is DevOps?",
+                "options": [
+                  "A software development methodology",
+                  "A programming language",
+                  "A database management tool"
+                ],
+                "answer": "A software development methodology"
+              },
+              {
+                "question": "Which of the following is a DevOps tool?",
+                "options": ["Jenkins", "Django", "React"],
+                "answer": "Jenkins"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "CI/CD",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Continuous Integration",
+              "video": "https://www.youtube.com/watch?v=1A2cM0jbIpE"
+            },
+            {
+              "id": 2,
+              "title": "Continuous Deployment",
+              "video": "https://www.youtube.com/watch?v=zRIM8rK3uh4"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Continuous Integration?",
+                "options": [
+                  "Integrating software components",
+                  "Merging code changes regularly",
+                  "Deploying applications"
+                ],
+                "answer": "Merging code changes regularly"
+              },
+              {
+                "question": "What is Continuous Deployment?",
+                "options": [
+                  "Testing code changes",
+                  "Deploying code changes automatically",
+                  "Monitoring applications"
+                ],
+                "answer": "Deploying code changes automatically"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary goal of DevOps?",
+            "options": [
+              "To improve collaboration between development and operations",
+              "To write code",
+              "To manage databases"
+            ],
+            "answer": "To improve collaboration between development and operations"
+          },
+          {
+            "question": "Which tool is used for version control in DevOps?",
+            "options": ["Git", "Jenkins", "Docker"],
+            "answer": "Git"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "category": "Blockchain",
+      "title": "Blockchain Basics",
+      "description": "Learn the fundamentals of blockchain technology.",
+      "instructor": "Jessica Davis",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to Blockchain",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is Blockchain?",
+              "video": "https://www.youtube.com/watch?v=SSo_EIwHSd4"
+            },
+            {
+              "id": 2,
+              "title": "Blockchain Use Cases",
+              "video": "https://www.youtube.com/watch?v=93E_GzvpMA0"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is blockchain?",
+                "options": [
+                  "A programming language",
+                  "A decentralized ledger technology",
+                  "A database management tool"
+                ],
+                "answer": "A decentralized ledger technology"
+              },
+              {
+                "question": "Which of the following is a use case for blockchain?",
+                "options": [
+                  "Web development",
+                  "Cryptocurrency",
+                  "Data analysis"
+                ],
+                "answer": "Cryptocurrency"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Smart Contracts",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What are Smart Contracts?",
+              "video": "https://www.youtube.com/watch?v=ZE2HxTmxfrI"
+            },
+            {
+              "id": 2,
+              "title": "Creating Smart Contracts",
+              "video": "https://www.youtube.com/watch?v=pV1zGSu-2bM"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a smart contract?",
+                "options": [
+                  "A legal document",
+                  "A self-executing contract",
+                  "A programming language"
+                ],
+                "answer": "A self-executing contract"
+              },
+              {
+                "question": "Which platform is commonly used for smart contracts?",
+                "options": ["Bitcoin", "Ethereum", "Litecoin"],
+                "answer": "Ethereum"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of blockchain?",
+            "options": [
+              "Data storage",
+              "Decentralized transactions",
+              "Machine learning"
+            ],
+            "answer": "Decentralized transactions"
+          },
+          {
+            "question": "Which programming language is commonly used for blockchain development?",
+            "options": ["Python", "Solidity", "Java"],
+            "answer": "Solidity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "category": "Game Development",
+      "title": "Unity for Beginners",
+      "description": "Learn how to develop games with Unity.",
+      "instructor": "David Miller",
+      "duration": "5 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Introduction to Unity",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is Unity?",
+              "video": "https://www.youtube.com/watch?v=IlpRU9SLM94"
+            },
+            {
+              "id": 2,
+              "title": "Setting Up Unity",
+              "video": "https://www.youtube.com/watch?v=l1KfMTKXuvU"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is Unity?",
+                "options": [
+                  "A game engine",
+                  "A programming language",
+                  "A design tool"
+                ],
+                "answer": "A game engine"
+              },
+              {
+                "question": "Which language is used with Unity?",
+                "options": ["Python", "C#", "JavaScript"],
+                "answer": "C#"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Game Development Basics",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Creating Game Objects",
+              "video": "https://www.youtube.com/watch?v=gL5tUaaGH_0"
+            },
+            {
+              "id": 2,
+              "title": "Scripting in Unity",
+              "video": "https://www.youtube.com/watch?v=PtP7LnqwejY"
+            }
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "question": "What is a game object?",
+                "options": ["A script", "An asset", "An element in a game"],
+                "answer": "An element in a game"
+              },
+              {
+                "question": "Which language is used for scripting in Unity?",
+                "options": ["Python", "C#", "JavaScript"],
+                "answer": "C#"
+              }
+            ]
+          }
+        }
+      ],
+      "finalQuiz": {
+        "questions": [
+          {
+            "question": "What is the primary use of Unity?",
+            "options": ["Web development", "Game development", "Data analysis"],
+            "answer": "Game development"
+          },
+          {
+            "question": "Which language is commonly used for Unity development?",
+            "options": ["Python", "C#", "JavaScript"],
+            "answer": "C#"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+[
+  {
+    "id": 1,
+    "category": "Web Development",
+    "title": "React for Beginners",
+    "description": "Learn the basics of React.",
+    "instructor": "John Doe",
+    "duration": "3 hours",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to React",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "What is React?",
+            "video": "https://www.youtube.com/watch?v=Ke90Tje7VS0"
+          },
+          {
+            "id": 2,
+            "title": "Getting Started with React",
+            "video": "https://www.youtube.com/watch?v=w7ejDZ8SWv8"
+          },
+          {
+            "id": 3,
+            "title": "React Components",
+            "video": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
+          },
+          {
+            "id": 4,
+            "title": "JSX",
+            "video": "https://www.youtube.com/watch?v=qc8mZKXqOhs"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is React?",
+              "options": [
+                "A programming language",
+                "A JavaScript library",
+                "A database"
+              ],
+              "answer": "A JavaScript library"
+            },
+            {
+              "question": "What does JSX stand for?",
+              "options": [
+                "JavaScript XML",
+                "JavaScript Extension",
+                "Java Syntax Extension"
+              ],
+              "answer": "JavaScript XML"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Advanced React",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "State Management",
+            "video": "https://www.youtube.com/watch?v=35lXWvCuM8o"
+          },
+          {
+            "id": 2,
+            "title": "Lifecycle Methods",
+            "video": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+          },
+          {
+            "id": 3,
+            "title": "Hooks",
+            "video": "https://www.youtube.com/watch?v=f687hBjwFcM"
+          },
+          {
+            "id": 4,
+            "title": "Context API",
+            "video": "https://www.youtube.com/watch?v=XLJN4JfniH4"
+          },
+          {
+            "id": 5,
+            "title": "Custom Hooks",
+            "video": "https://www.youtube.com/watch?v=IL82CzlaCys"
+          },
+          {
+            "id": 6,
+            "title": "Performance Optimization",
+            "video": "https://www.youtube.com/watch?v=HB6q8jAZMiU"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is a hook in React?",
+              "options": [
+                "A lifecycle method",
+                "A function that lets you use state and other features",
+                "A state management tool"
+              ],
+              "answer": "A function that lets you use state and other features"
+            },
+            {
+              "question": "What is the Context API used for?",
+              "options": [
+                "Managing component state",
+                "Sharing values between components",
+                "Optimizing performance"
+              ],
+              "answer": "Sharing values between components"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "title": "React Router",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to React Router",
+            "video": "https://www.youtube.com/watch?v=Law7wfdg_ls"
+          },
+          {
+            "id": 2,
+            "title": "Nested Routes",
+            "video": "https://www.youtube.com/watch?v=Ph8BXH-H3GQ"
+          },
+          {
+            "id": 3,
+            "title": "Programmatic Navigation",
+            "video": "https://www.youtube.com/watch?v=9OcoO3fsS2I"
+          },
+          {
+            "id": 4,
+            "title": "Dynamic Routing",
+            "video": "https://www.youtube.com/watch?v=cTFmhBWv6Bo"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is React Router?",
+              "options": [
+                "A state management tool",
+                "A routing library",
+                "A UI component library"
+              ],
+              "answer": "A routing library"
+            },
+            {
+              "question": "What is used for defining routes?",
+              "options": [
+                "Route component",
+                "Link component",
+                "NavLink component"
+              ],
+              "answer": "Route component"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Redux",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to Redux",
+            "video": "https://www.youtube.com/watch?v=poQXNp9ItL4"
+          },
+          {
+            "id": 2,
+            "title": "Actions and Reducers",
+            "video": "https://www.youtube.com/watch?v=wvWmH2JoYqA"
+          },
+          {
+            "id": 3,
+            "title": "Redux Thunk",
+            "video": "https://www.youtube.com/watch?v=UV7VVo1w5_E"
+          },
+          {
+            "id": 4,
+            "title": "Connecting Redux with React",
+            "video": "https://www.youtube.com/watch?v=CVpUuw9XSjY"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is Redux?",
+              "options": [
+                "A routing library",
+                "A state management tool",
+                "A UI component library"
+              ],
+              "answer": "A state management tool"
+            },
+            {
+              "question": "What is used to define state changes?",
+              "options": ["Actions", "Reducers", "Store"],
+              "answer": "Reducers"
+            }
+          ]
+        }
+      }
+    ],
+    "finalQuiz": {
+      "questions": [
+        {
+          "question": "What is the primary use of React?",
+          "options": [
+            "Building mobile applications",
+            "Building user interfaces",
+            "Managing databases"
+          ],
+          "answer": "Building user interfaces"
+        },
+        {
+          "question": "Which hook is used for managing state in functional components?",
+          "options": ["useEffect", "useContext", "useState"],
+          "answer": "useState"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "category": "Data Science",
+    "title": "Python for Data Analysis",
+    "description": "Learn how to analyze data using Python.",
+    "instructor": "Jane Smith",
+    "duration": "5 hours",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to Python",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Python Basics",
+            "video": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+          },
+          {
+            "id": 2,
+            "title": "Data Types",
+            "video": "https://www.youtube.com/watch?v=khKv-8q7YmY"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is Python?",
+              "options": [
+                "A type of snake",
+                "A programming language",
+                "A data analysis tool"
+              ],
+              "answer": "A programming language"
+            },
+            {
+              "question": "Which data type is immutable?",
+              "options": ["list", "dict", "tuple"],
+              "answer": "tuple"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Data Analysis with Pandas",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to Pandas",
+            "video": "https://www.youtube.com/watch?v=pmET9X4iBYw"
+          },
+          {
+            "id": 2,
+            "title": "DataFrames",
+            "video": "https://www.youtube.com/watch?v=zmdjNSmRXF4"
+          },
+          {
+            "id": 3,
+            "title": "Data Cleaning",
+            "video": "https://www.youtube.com/watch?v=ZOX18HfLHGQ"
+          },
+          {
+            "id": 4,
+            "title": "Data Manipulation",
+            "video": "https://www.youtube.com/watch?v=dcqPhpY7tWk"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is Pandas?",
+              "options": [
+                "A type of bear",
+                "A data analysis library",
+                "A Python IDE"
+              ],
+              "answer": "A data analysis library"
+            },
+            {
+              "question": "What is a DataFrame?",
+              "options": [
+                "A type of data structure",
+                "A Python function",
+                "A data type"
+              ],
+              "answer": "A type of data structure"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "title": "Data Visualization",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to Matplotlib",
+            "video": "https://www.youtube.com/watch?v=Ks7FKDsjYQw"
+          },
+          {
+            "id": 2,
+            "title": "Plotting with Pandas",
+            "video": "https://www.youtube.com/watch?v=KzwjK5t1p3I"
+          },
+          {
+            "id": 3,
+            "title": "Seaborn Basics",
+            "video": "https://www.youtube.com/watch?v=6GUZXDef2U0"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is Matplotlib used for?",
+              "options": [
+                "Data analysis",
+                "Data visualization",
+                "Data cleaning"
+              ],
+              "answer": "Data visualization"
+            },
+            {
+              "question": "What is Seaborn?",
+              "options": [
+                "A data visualization library",
+                "A data cleaning tool",
+                "A Python IDE"
+              ],
+              "answer": "A data visualization library"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Machine Learning Basics",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to Machine Learning",
+            "video": "https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+          },
+          {
+            "id": 2,
+            "title": "Supervised Learning",
+            "video": "https://www.youtube.com/watch?v=ZyciFzjusbc"
+          },
+          {
+            "id": 3,
+            "title": "Unsupervised Learning",
+            "video": "https://www.youtube.com/watch?v=rlfsnRY0S9k"
+          }
+        ],
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is supervised learning?",
+              "options": [
+                "Learning with labeled data",
+                "Learning without labeled data",
+                "A type of data visualization"
+              ],
+              "answer": "Learning with labeled data"
+            },
+            {
+              "question": "What is unsupervised learning?",
+              "options": [
+                "Learning with labeled data",
+                "Learning without labeled data",
+                "A type of data visualization"
+              ],
+              "answer": "Learning without labeled data"
+            }
+          ]
+        }
+      }
+    ],
+    "finalQuiz": {
+      "questions": [
+        {
+          "question": "What is the primary use of Pandas?",
+          "options": ["Web development", "Data analysis", "Machine learning"],
+          "answer": "Data analysis"
+        },
+        {
+          "question": "Which function is used to create a DataFrame in Pandas?",
+          "options": [
+            "pd.DataFrame()",
+            "pd.createDataFrame()",
+            "pd.newDataFrame()"
+          ],
+          "answer": "pd.DataFrame()"
+        }
+      ]
+    }
+  }
+]
