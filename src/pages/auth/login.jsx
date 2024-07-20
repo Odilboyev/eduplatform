@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { signIn } from "../../api/auth";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import auth from "./auth";
 
 const SignInPage = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -29,9 +31,12 @@ const SignInPage = () => {
       return;
     }
     try {
-      await signIn(formData);
-      // Redirect to home page or show success message
+      const res = await signIn(formData);
+      localStorage.setItem("eduToken", res?.accessToken);
+      auth.logIn();
+      navigate("/");
     } catch (error) {
+      setErrors({ server: error.response.data });
       console.error(error);
     }
   };
@@ -39,7 +44,7 @@ const SignInPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-lg">
-        <h1 className="text-3xl font-semibold text-center mb-6">Register</h1>
+        <h1 className="text-3xl font-semibold text-center mb-6">Sign in</h1>
 
         <p
           className="text-red-500 text-sm mt-1 text-center mb-5"
