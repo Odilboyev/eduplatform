@@ -10,13 +10,13 @@ import PrivateRoute from "./privateRoute";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-lightBackground">
         <Routes>
           <Route element={<PrivateRoute />}>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/course/:id" element={<CoursePage />} />
             <Route path="/dashboard" element={<Dashboard />} />
-          </Route>
+          </Route>{" "}
+          <Route path="/" exact element={<Home />} />
+          <Route path="/course/:id" element={<CoursePage />} />
           <Route path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
         </Routes>

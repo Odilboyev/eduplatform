@@ -83,16 +83,13 @@ const SignInPage = () => {
               <p className="text-red-500 text-sm">{errors.password}</p>
             )}
           </div>
-          <p className="font-bold mt-1 text-center mb-5">
+          <p className="mt-1 text-center mb-5 text-gray-800">
             First time?{" "}
-            <Link to="/signup" className="text-primary">
+            <Link to="/signup" className="text-blue-500 font-bold">
               Sign up
             </Link>
           </p>
-          <button
-            type="submit"
-            className="bg-softGreen/80 w-full text-white px-4 py-2 rounded hover:bg-softGreen"
-          >
+          <button type="submit" className="w-full border border-tertiary">
             Sign In
           </button>
         </form>

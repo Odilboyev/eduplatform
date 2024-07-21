@@ -50,7 +50,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 ">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-lg">
         <h1 className="text-3xl font-semibold text-center mb-6">Register</h1>
 
@@ -151,16 +151,13 @@ const SignUpPage = () => {
               <p className="text-red-500 text-sm mt-1">{errors.age}</p>
             )}
           </div>
-          <p className="font-bold mt-1 text-center mb-5">
-            Already have an account ?{" "}
-            <Link to="/signin" className="text-primary">
+          <p className="mt-1 text-center mb-5 text-gray-800">
+            already have an account ?{" "}
+            <Link to="/signin" className="text-blue-500 font-bold">
               Sign in
             </Link>
           </p>
-          <button
-            type="submit"
-            className="w-full bg-primary/80 text-white p-3 rounded-md hover:bg-primary transition-colors"
-          >
+          <button type="submit" className="w-full border border-tertiary">
             Sign Up!
           </button>
         </form>

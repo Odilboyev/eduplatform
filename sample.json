@@ -111,6 +111,15 @@
       "userName": "co",
       "age": "9",
       "id": "mokLGKo"
+    },
+    {
+      "email": "john@doe.com",
+      "password": "$2a$10$rLUDu.2WvoqtGDyLW1d6xO57zmzLZGJO6/hKRv2Z13R3NlXNr4G6u",
+      "firstName": "john",
+      "lastName": "doe",
+      "userName": "johnny",
+      "age": "19",
+      "id": "BFpbhdg"
     }
   ],
   "courses": [
@@ -314,7 +323,11 @@
               },
               {
                 "question": "What is used to define state changes?",
-                "options": ["Actions", "Reducers", "Store"],
+                "options": [
+                  "Actions",
+                  "Reducers",
+                  "Store"
+                ],
                 "answer": "Reducers"
               }
             ]
@@ -334,7 +347,11 @@
           },
           {
             "question": "Which hook is used for managing state in functional components?",
-            "options": ["useEffect", "useContext", "useState"],
+            "options": [
+              "useEffect",
+              "useContext",
+              "useState"
+            ],
             "answer": "useState"
           }
         ]
@@ -376,7 +393,11 @@
               },
               {
                 "question": "Which data type is immutable?",
-                "options": ["list", "dict", "tuple"],
+                "options": [
+                  "list",
+                  "dict",
+                  "tuple"
+                ],
                 "answer": "tuple"
               }
             ]
@@ -521,7 +542,11 @@
         "questions": [
           {
             "question": "What is the primary use of Pandas?",
-            "options": ["Web development", "Data analysis", "Machine learning"],
+            "options": [
+              "Web development",
+              "Data analysis",
+              "Machine learning"
+            ],
             "answer": "Data analysis"
           },
           {
@@ -572,7 +597,11 @@
               },
               {
                 "question": "Which language is used with Flutter?",
-                "options": ["JavaScript", "Dart", "Python"],
+                "options": [
+                  "JavaScript",
+                  "Dart",
+                  "Python"
+                ],
                 "answer": "Dart"
               }
             ]
@@ -597,7 +626,11 @@
             "questions": [
               {
                 "question": "What are widgets in Flutter?",
-                "options": ["Functions", "Classes", "UI components"],
+                "options": [
+                  "Functions",
+                  "Classes",
+                  "UI components"
+                ],
                 "answer": "UI components"
               },
               {
@@ -626,7 +659,11 @@
           },
           {
             "question": "Which company developed Flutter?",
-            "options": ["Apple", "Microsoft", "Google"],
+            "options": [
+              "Apple",
+              "Microsoft",
+              "Google"
+            ],
             "answer": "Google"
           }
         ]
@@ -668,7 +705,11 @@
               },
               {
                 "question": "When was the term 'Artificial Intelligence' coined?",
-                "options": ["1945", "1956", "1965"],
+                "options": [
+                  "1945",
+                  "1956",
+                  "1965"
+                ],
                 "answer": "1956"
               }
             ]
@@ -726,7 +767,11 @@
           },
           {
             "question": "Which of the following is an example of AI?",
-            "options": ["A calculator", "A chatbot", "A spreadsheet"],
+            "options": [
+              "A calculator",
+              "A chatbot",
+              "A spreadsheet"
+            ],
             "answer": "A chatbot"
           }
         ]
@@ -768,7 +813,11 @@
               },
               {
                 "question": "Which of the following is a cybersecurity threat?",
-                "options": ["Phishing", "Debugging", "Compiling"],
+                "options": [
+                  "Phishing",
+                  "Debugging",
+                  "Compiling"
+                ],
                 "answer": "Phishing"
               }
             ]
@@ -826,7 +875,11 @@
           },
           {
             "question": "Which tool is used to monitor network traffic?",
-            "options": ["Antivirus", "Firewall", "Router"],
+            "options": [
+              "Antivirus",
+              "Firewall",
+              "Router"
+            ],
             "answer": "Firewall"
           }
         ]
@@ -868,7 +921,11 @@
               },
               {
                 "question": "Which service is used for storage in AWS?",
-                "options": ["EC2", "S3", "RDS"],
+                "options": [
+                  "EC2",
+                  "S3",
+                  "RDS"
+                ],
                 "answer": "S3"
               }
             ]
@@ -917,12 +974,20 @@
         "questions": [
           {
             "question": "What is the primary use of AWS?",
-            "options": ["Cloud computing", "Web development", "Data analysis"],
+            "options": [
+              "Cloud computing",
+              "Web development",
+              "Data analysis"
+            ],
             "answer": "Cloud computing"
           },
           {
             "question": "Which service is used for databases in AWS?",
-            "options": ["EC2", "S3", "RDS"],
+            "options": [
+              "EC2",
+              "S3",
+              "RDS"
+            ],
             "answer": "RDS"
           }
         ]
@@ -964,7 +1029,11 @@
               },
               {
                 "question": "Which of the following is a DevOps tool?",
-                "options": ["Jenkins", "Django", "React"],
+                "options": [
+                  "Jenkins",
+                  "Django",
+                  "React"
+                ],
                 "answer": "Jenkins"
               }
             ]
@@ -1022,7 +1091,11 @@
           },
           {
             "question": "Which tool is used for version control in DevOps?",
-            "options": ["Git", "Jenkins", "Docker"],
+            "options": [
+              "Git",
+              "Jenkins",
+              "Docker"
+            ],
             "answer": "Git"
           }
         ]
@@ -1102,7 +1175,11 @@
               },
               {
                 "question": "Which platform is commonly used for smart contracts?",
-                "options": ["Bitcoin", "Ethereum", "Litecoin"],
+                "options": [
+                  "Bitcoin",
+                  "Ethereum",
+                  "Litecoin"
+                ],
                 "answer": "Ethereum"
               }
             ]
@@ -1122,7 +1199,11 @@
           },
           {
             "question": "Which programming language is commonly used for blockchain development?",
-            "options": ["Python", "Solidity", "Java"],
+            "options": [
+              "Python",
+              "Solidity",
+              "Java"
+            ],
             "answer": "Solidity"
           }
         ]
@@ -1164,7 +1245,11 @@
               },
               {
                 "question": "Which language is used with Unity?",
-                "options": ["Python", "C#", "JavaScript"],
+                "options": [
+                  "Python",
+                  "C#",
+                  "JavaScript"
+                ],
                 "answer": "C#"
               }
             ]
@@ -1189,12 +1274,20 @@
             "questions": [
               {
                 "question": "What is a game object?",
-                "options": ["A script", "An asset", "An element in a game"],
+                "options": [
+                  "A script",
+                  "An asset",
+                  "An element in a game"
+                ],
                 "answer": "An element in a game"
               },
               {
                 "question": "Which language is used for scripting in Unity?",
-                "options": ["Python", "C#", "JavaScript"],
+                "options": [
+                  "Python",
+                  "C#",
+                  "JavaScript"
+                ],
                 "answer": "C#"
               }
             ]
@@ -1205,12 +1298,20 @@
         "questions": [
           {
             "question": "What is the primary use of Unity?",
-            "options": ["Web development", "Game development", "Data analysis"],
+            "options": [
+              "Web development",
+              "Game development",
+              "Data analysis"
+            ],
             "answer": "Game development"
           },
           {
             "question": "Which language is commonly used for Unity development?",
-            "options": ["Python", "C#", "JavaScript"],
+            "options": [
+              "Python",
+              "C#",
+              "JavaScript"
+            ],
             "answer": "C#"
           }
         ]
